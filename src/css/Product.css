@@ -1,0 +1,28 @@
+.image{
+    width: 200px;
+    height: 200px;
+}
+.Card{
+    width: 250px;
+    height: 23.75rem;
+    box-shadow: 1px 2px 3px lightgray;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: border 1s ease;
+    border: 1px solid transparent;
+}
+.Card:hover{
+    border: 1px solid black;
+}
+.btn-detail{
+    border: none;
+    padding: 10px;
+    border-radius: 14px;
+    background-color: black;
+    color:red;
+    cursor: pointer;
+}
